@@ -37,11 +37,11 @@ nav ul li a {
     transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+footer a:hover {
     color: #0073e6;
 }
 
-/* 让介绍部分始终居中 */
 .main-container {
     flex: 1;
     display: flex;
@@ -72,11 +72,17 @@ nav ul li a:hover {
     object-fit: cover;
 }
 
-/* 让 footer 始终固定在页面底部 */
+
 footer {
     text-align: center;
     padding: 20px;
     font-size: 14px;
     background: #fff;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+#contact-info {
+    font-weight: bold;
+    color: #444;
 }
